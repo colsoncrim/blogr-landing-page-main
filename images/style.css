@@ -1,0 +1,47 @@
+:root {
+    --background: #ffffff;
+    --gradient-primary: linear-gradient(to right, #ff8f70, #ff3d54);
+}
+
+html {
+	background-color: var(--main);
+	scroll-behavior: smooth;
+}
+
+body {
+	width: 100%;
+	height: auto;
+	max-width: 100%;
+	min-height: 100vh;
+	background-color: var(--main);
+}
+
+header {
+    width: 100%;
+    height: auto;
+    background: url('/images/bg-pattern-intro.svg') no-repeat 26% 53% / 220% var(--gradient-primary);
+}
+
+nav {
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+
+nav .nav-main-container {
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: center;
+	align-items: center;
+	width: auto;
+	height: 100%;
+}
+
+nav .nav-right-container {
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: center;
+	align-items: center;
+	width: auto;
+	height: 100%;
+}
